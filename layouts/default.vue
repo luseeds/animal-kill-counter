@@ -1,9 +1,26 @@
 <template>
-  <div>
+  <div class="text-center">
+    <nuxt-link to="/" class="inline-block">
+      <logo color="text-orange-900" :size="150" />
+    </nuxt-link>
     <nuxt />
+    <Source />
+    <Footer />
   </div>
 </template>
+<script>
+import Logo from '~/components/Logo.vue'
+import Source from '~/components/Source'
+import Footer from '~/components/Footer'
 
+export default {
+  components: {
+    Logo,
+    Source,
+    Footer
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -15,6 +32,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  @apply bg-gray-200;
 }
 
 *,
@@ -24,32 +42,11 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+a {
+  @apply text-orange-800;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+a:hover {
+  @apply text-orange-600;
 }
 </style>

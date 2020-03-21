@@ -1,0 +1,3 @@
+- [ ] Reduce / optimize image sizes
+- [ ] Improve design
+- [ ] Improve SEO text
