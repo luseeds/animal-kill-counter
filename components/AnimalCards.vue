@@ -2,8 +2,7 @@
   <div class="mt-8">
     <div class="text-lg text-gray-800">
       The counters started
-      <span class="text-orange-700 font-bold">{{ secondsElapsed }}</span>
-      seconds ago.
+      <span class="text-orange-700 font-bold">{{ timeElapsed }}</span> ago
     </div>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-8">
       <animal-card
@@ -67,6 +66,18 @@ export default {
     secondsElapsed: 0,
     animals
   }),
+  computed: {
+    timeElapsed() {
+      const minutes = Math.floor(this.secondsElapsed / 60)
+      const seconds = this.secondsElapsed % 60
+      let timeText = minutes
+        ? `${minutes} minute${minutes === 1 ? '' : 's'} `
+        : ''
+      timeText += `${seconds} second${seconds === 1 ? '' : 's'}`
+
+      return timeText
+    }
+  },
   mounted() {
     this.start = new Date().getTime()
     this.timeout = window.setTimeout(
