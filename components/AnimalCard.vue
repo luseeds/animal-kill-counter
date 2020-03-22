@@ -4,7 +4,7 @@
   >
     <img
       class="w-full h-40 object-cover"
-      :src="require(`@/assets/img/${uid}.png`)"
+      :src="require(`@/assets/img/${uid}.jpg`)"
       :alt="name"
     />
     <div class="px-6 py-4">

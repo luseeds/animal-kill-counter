@@ -25,12 +25,12 @@ const INTERVAL = 1000 / UPDATES_PER_SECONDS
 
 const animals = [
   {
-    key: 'wildCaughtFish',
-    name: 'Wild caught fish',
+    key: 'wildCaughtFishes',
+    name: 'Wild caught fishes',
     killPerYear: 970000000000
   },
-  { key: 'chicken', name: 'Chicken', killPerYear: 61171973510 },
-  { key: 'farmedFish', name: 'Farmed fish', killPerYear: 38000000000 },
+  { key: 'chickens', name: 'Chickens', killPerYear: 61171973510 },
+  { key: 'farmedFishes', name: 'Farmed fishes', killPerYear: 38000000000 },
   { key: 'ducks', name: 'Ducks', killPerYear: 2887594480 },
   { key: 'pigs', name: 'Pigs', killPerYear: 1451856889.38 },
   { key: 'rabbits', name: 'Rabbits', killPerYear: 1171578000 },
@@ -41,7 +41,7 @@ const animals = [
   { key: 'cattle', name: 'Cattle', killPerYear: 298799160.08 },
   { key: 'rodents', name: 'Rodents', killPerYear: 70371000 },
   { key: 'otherBirds', name: 'Other birds', killPerYear: 59656000 },
-  { key: 'buffalo', name: 'Buffalo', killPerYear: 25798819 },
+  { key: 'buffalos', name: 'Buffalos', killPerYear: 25798819 },
   { key: 'horses', name: 'Horses', killPerYear: 4863367 },
   { key: 'camels', name: 'Camels', killPerYear: 3243266.03 },
   { key: 'donkeys', name: 'Donkeys', killPerYear: 3213400 }
