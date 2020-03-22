@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <nuxt-link to="/" class="inline-block">
-      <logo color="text-orange-900" :size="150" />
+      <logo color="text-orange-900" :size="125" />
     </nuxt-link>
     <nuxt />
     <Source />
