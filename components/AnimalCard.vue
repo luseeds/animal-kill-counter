@@ -9,11 +9,11 @@
     />
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-1">{{ killed.toLocaleString() }}</div>
-      <div class="text-base uppercase tracking-tight font-bold text-gray-600">
+      <div class="text-base uppercase tracking-tight font-bold text-gray-700">
         {{ name }}
       </div>
       <p
-        class="text-sm mt-2 tracking-tight font-bold text-gray-600 opacity-0 group-hover:opacity-100"
+        class="text-sm mt-2 tracking-tight font-bold text-gray-700 opacity-0 group-hover:opacity-100"
       >
         {{ killedPerSecond }} killed every seconds
       </p>

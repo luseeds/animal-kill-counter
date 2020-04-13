@@ -77,6 +77,6 @@ export default {
 }
 
 .subtitle {
-  @apply font-medium text-gray-600;
+  @apply font-medium text-gray-700;
 }
 </style>

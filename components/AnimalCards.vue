@@ -2,7 +2,7 @@
   <div class="mt-8">
     <div class="text-lg text-gray-800">
       The counters started
-      <span class="text-orange-700 font-bold">{{ timeElapsed }}</span> ago
+      <span class="text-orange-800 font-bold">{{ timeElapsed }}</span> ago
     </div>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-8">
       <animal-card

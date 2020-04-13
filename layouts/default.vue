@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <nuxt-link to="/" class="inline-block">
+    <nuxt-link to="/" class="inline-block" aria-label="go to homepage">
       <logo color="text-orange-900" :size="125" />
     </nuxt-link>
     <nuxt />
