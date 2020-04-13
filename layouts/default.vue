@@ -3,7 +3,9 @@
     <nuxt-link to="/" class="inline-block" aria-label="go to homepage">
       <logo color="text-orange-900" :size="125" />
     </nuxt-link>
-    <nuxt />
+    <main>
+      <nuxt />
+    </main>
     <Source />
     <Footer />
   </div>
