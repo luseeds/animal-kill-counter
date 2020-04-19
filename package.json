@@ -2,7 +2,7 @@
   "name": "animal-kill-counter",
   "version": "1.0.0",
   "description": "Show the numbers of animal being killed",
-  "author": "cyrilf",
+  "author": "luseeds",
   "private": true,
   "scripts": {
     "dev": "nuxt",
