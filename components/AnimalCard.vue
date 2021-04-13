@@ -13,7 +13,7 @@
         {{ name }}
       </div>
       <p
-        class="text-sm mt-2 tracking-tight font-bold text-gray-700 opacity-0 group-hover:opacity-100"
+        class="text-sm mt-2 tracking-tight font-bold text-gray-600 md:opacity-0 group-hover:opacity-100"
       >
         {{ killedPerSecond }} killed every seconds
       </p>

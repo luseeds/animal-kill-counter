@@ -4,7 +4,7 @@
       The counters started
       <span class="text-orange-800 font-bold">{{ timeElapsed }}</span> ago
     </div>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-8">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-8">
       <animal-card
         v-for="animal in animals"
         :key="animal.key"
